@@ -1,0 +1,90 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.LogType=0
+DefaultDir=S:\@Source\wwwroot\web_app
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+web_app
+	+web_app
+		+css
+			css\05.css
+			css\base.css
+		-img
+		+js
+			+lib
+				js\lib\jquery-1.4.2.min.js
+			js\orientation-monitor.js
+			js\autohideUrl.js
+		+snippets
+			snippets\01.html
+			snippets\02.html
+			snippets\03.html
+			snippets\04.html
+			snippets\05.html
+			snippets\07.html
+			snippets\06.html
+			snippets\08.html
+		index.html
+[Open project files]
+0=snippets\01.html
+1=index.html
+2=snippets\02.html
+3=snippets\03.html
+4=snippets\05.html
+5=css\05.css
+6=css\base.css
+7=snippets\06.html
+8=snippets\07.html
+9=snippets\08.html
+10=js\orientation-monitor.js
+11=css\base.smallscreen.css
+12=js\lib\jquery-1.4.2.min.js
+[Selected Project Files]
+Main=
+Selected=js\orientation-monitor.js
+[snippets\01.html]
+TopLine=1
+Caret=29,9
+[index.html]
+TopLine=1
+Caret=61,17
+[snippets\02.html]
+TopLine=1
+Caret=3,4
+[snippets\03.html]
+TopLine=1
+Caret=1,15
+[snippets\05.html]
+TopLine=1
+Caret=10,30
+[css\05.css]
+TopLine=1
+Caret=1,1
+[css\base.css]
+TopLine=1
+Caret=1,9
+[snippets\06.html]
+TopLine=1
+Caret=35,22
+[snippets\07.html]
+TopLine=1
+Caret=1,29
+[snippets\08.html]
+TopLine=1
+Caret=59,20
+[js\orientation-monitor.js]
+TopLine=1
+Caret=51,7
+[css\base.smallscreen.css]
+TopLine=1
+Caret=19,5
+[js\lib\jquery-1.4.2.min.js]
+TopLine=1
+Caret=1,1
