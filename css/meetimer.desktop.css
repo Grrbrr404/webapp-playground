@@ -1,0 +1,11 @@
+body {
+  font-size: 1.3em;
+}
+
+.emptyseat {
+  background-color: #2C5276;
+  margin: 0px auto; text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
