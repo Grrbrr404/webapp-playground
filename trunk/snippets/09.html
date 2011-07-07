@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>meeTiemr</title> 
+	<meta name="viewport" content="width=device-width; user-scalable=0">
+	<link href="../css/meetimer.base.css" type="text/css" rel="stylesheet" />
+  	
+  <link media="only screen and (max-device-width: 480px)" href="../css/meetimer.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (min-device-width: 481px)" href="../css/meetimer.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (min-device-width: 801px)" href="../css/meetimer.desktop.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="../js/lib/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="../js/meetimer.js"></script>
+</head> 
+<body>  
+  <table id="grid" class="grid" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td>&nbsp;</td>
+      <td> label
+        <div id="seat1" class="emptyseat">&nbsp;</div>
+      </td>
+      <td> label
+        <div class="emptyseat">&nbsp;</div>
+      </td>
+      <td> label
+        <div class="emptyseat">&nbsp;</div>
+      </td>
+      <td>&nbsp;</td>
+    </tr>  
+    <tr>
+      <td> label
+        <div class="emptyseat">&nbsp;</div>
+      </td>
+      <td colspan="3" rowspan="4">
+        <div id="tablecontainer">
+          <div id="tabletop">
+            <span id="hourdisplay">00</span>:<span id="minutedisplay">00</span>:<span id="seconddisplay">00</span> <br />
+            <span id="moneydisplay">0</span>€
+          </div>
+          <div id="tablebottom">
+          </div>
+        </div>
+      </td>
+      <td> label
+        <div class="emptyseat">&nbsp;</div>
+      </td>
+    </tr>
+    <tr>
+      <td> label
+        <div class="emptyseat">&nbsp;</div>
+      </td>
+      <td> label
+        <div class="emptyseat">&nbsp;</div>
+      </td>
+    </tr>  
+    <tr>
+      <td> label
+        <div class="emptyseat">&nbsp;</div>
+      </td>
+      <td> label
+        <div class="emptyseat">&nbsp;</div>
+      </td>
+    </tr>
+    <tr>
+      <td> label
+        <div class="emptyseat">&nbsp;</div>
+      </td>
+      <td> label
+        <div class="emptyseat">&nbsp;</div>
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td> label
+        <div class="emptyseat">&nbsp;</div>
+      </td>
+      <td> label
+        <div class="emptyseat">&nbsp;</div>
+      </td>
+      <td> label
+        <div class="emptyseat">&nbsp;</div>
+      </td>
+      <td>&nbsp;</td>
+    </tr>  
+  </table>    
+</body>
+</html>
+<script>
+  setLayout(); 
+</script>
