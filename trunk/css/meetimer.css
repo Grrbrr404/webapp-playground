@@ -2,10 +2,12 @@ body {
   margin: 0px;
   min-height: 480px;
 }
-
-.emptyseat {
-  background-color: #2C5276;
+.seat {
   margin: 0px auto; text-align: center;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
+}
+
+.emptyleft {
+  background-image: url(../img/empty_chair_face_right.png);  
 }

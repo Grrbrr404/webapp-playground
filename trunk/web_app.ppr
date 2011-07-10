@@ -13,10 +13,19 @@ ProjectFilesOnly=0
 [Project tree]
 web_app
 	+web_app
-		+css
+		-css
 			css\05.css
 			css\base.css
-		-img
+			css\meetimer.desktop.css
+			css\meetimer.css
+			css\meetimer.base.css
+			css\base.smallscreen.css
+		+img
+			img\orgbackground.jpg
+			img\logo.png
+			img\empty_chair_face_top.png
+			img\empty_chair_face_left.png
+			img\empty_chair_face_down.png
 		+js
 			-lib
 				js\lib\jquery-1.4.2.min.js
@@ -36,16 +45,12 @@ web_app
 [Open project files]
 0=snippets\09.html
 1=css\meetimer.css
-2=css\meetimer.desktop.css
 [Selected Project Files]
 Main=
-Selected=css\meetimer.desktop.css
+Selected=css\meetimer.css
 [snippets\09.html]
-TopLine=1
-Caret=57,6
+TopLine=37
+Caret=35,53
 [css\meetimer.css]
 TopLine=1
-Caret=7,41
-[css\meetimer.desktop.css]
-TopLine=13
-Caret=52,27
+Caret=54,12
