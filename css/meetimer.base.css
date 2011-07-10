@@ -9,35 +9,39 @@ body {
   margin: 0px auto;
 }
 .grid td {
-  height: 16%;
-  width: 20%;  
+  height: 20%; 
+ /* width: 20%;    */
   text-align: center;
 }
 
 #tablecontainer {
   height: 100%;
+  width:100%;
   padding: 2px;
 }
 
 #tabletop {
-   -webkit-border-top-left-radius: 8px;
    -webkit-border-top-right-radius: 8px;
-   border-top-left-radius: 8px;
-   border-top-right-radius: 8px; 	
+   -webkit-border-bottom-right-radius: 8px;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px; 	
    -moz-border-radius-topright: 8px;
-   -moz-border-radius-topleft: 8px;
+   -moz-border-radius-bottomright: 8px;
    background-color: #CACACA;
-   height: 75%; 
+   height: 100%; 
+   width: 75%;
+   float:right;
 }
 
 #tablebottom {
+   -webkit-border-top-left-radius: 8px;
    -webkit-border-bottom-left-radius: 8px;
-   -webkit-border-bottom-right-radius: 8px;
-   border-bottom-left-radius: 8px;
-   border-bottom-right-radius: 8px; 	
-   -moz-border-radius-bottomright: 8px;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px; 	
    -moz-border-radius-bottomleft: 8px;
+   -moz-border-radius-topleft: 8px;
 
    background-color: #7E4A94;
-   height: 25%; 
+   height: 100%;
+   width: 25%;  
 }
