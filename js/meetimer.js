@@ -7,7 +7,7 @@ var hoursPassed = 0;
 
 $(document).ready(function() {
   window.setInterval("progressTimer()", 1000);
-  $(".emptyseat").click(function() {
+  $(".seat").click(function() {
     alert("empty seat.");
   });
 });
@@ -57,8 +57,8 @@ function DoTimerTick() {
 function setLayout() {
   var height = window.innerHeight || document.documentElement.clientHeight;
   var width = window.innerWidth || document.documentElement.clientWidth;
-  
-  $("#grid").css("height", height);
+  var dif = width-height;
+  $("body").css("height", height);
   $("#grid").css("width", width);
   window.scrollTo(0,1);
 }

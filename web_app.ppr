@@ -13,7 +13,7 @@ ProjectFilesOnly=0
 [Project tree]
 web_app
 	+web_app
-		-css
+		+css
 			css\05.css
 			css\base.css
 			css\meetimer.desktop.css
@@ -26,12 +26,31 @@ web_app
 			img\empty_chair_face_top.png
 			img\empty_chair_face_left.png
 			img\empty_chair_face_down.png
+			img\table_bg.png
+			img\settings_button_large_off.png
+			img\reload.png
+			img\Outdoor.png
+			img\main.png
+			img\info44.png
+			img\info.png
+			img\freifalter.png
+			img\empty_chair_face_right.png
+			img\DoneUp.png
+			img\DoneDown.png
+			img\conuno2.png
+			img\conuno1.png
+			img\config.png
+			img\Chair_Top.png
+			img\Chair_Right.png
+			img\Chair_Left.png
+			img\Chair_Bottom.png
 		+js
 			-lib
 				js\lib\jquery-1.4.2.min.js
 			js\orientation-monitor.js
 			js\autohideUrl.js
-		+snippets
+			js\meetimer.js
+		-snippets
 			snippets\01.html
 			snippets\02.html
 			snippets\03.html
@@ -40,17 +59,25 @@ web_app
 			snippets\07.html
 			snippets\06.html
 			snippets\08.html
-			snippets\09.html
 		index.html
+		09.html
 [Open project files]
-0=snippets\09.html
-1=css\meetimer.css
+0=css\meetimer.css
+1=09.html
+2=css\meetimer.base.css
+3=js\meetimer.js
 [Selected Project Files]
 Main=
 Selected=css\meetimer.css
-[snippets\09.html]
-TopLine=37
-Caret=35,53
 [css\meetimer.css]
 TopLine=1
-Caret=54,12
+Caret=93,8
+[09.html]
+TopLine=1
+Caret=42,15
+[css\meetimer.base.css]
+TopLine=1
+Caret=19,15
+[js\meetimer.js]
+TopLine=37
+Caret=95,63
