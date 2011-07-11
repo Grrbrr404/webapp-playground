@@ -7,17 +7,19 @@ body {
 
 .grid {
   margin: 0px auto;
+  width: 100%;
+  height: 85%;
 }
 .grid td {
-  height: 20%; 
- /* width: 20%;    */
   text-align: center;
+  font-size:0.8em;
 }
 
 #tablecontainer {
   height: 100%;
   width:100%;
   padding: 2px;
+  color: #000;
 }
 
 #tabletop {
@@ -41,7 +43,15 @@ body {
    -moz-border-radius-bottomleft: 8px;
    -moz-border-radius-topleft: 8px;
 
+   background-image: url(../img/logo.png);
+   background-position: center;
+   background-repeat: no-repeat;
    background-color: #7E4A94;
    height: 100%;
    width: 25%;  
+}
+
+.moneydisplay {
+  font-size: 1.3em;
+  font-weight: bold;
 }
